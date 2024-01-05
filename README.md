@@ -4,10 +4,7 @@
 [![Platforms](https://img.shields.io/badge/Platforms-macOS-orange?style=flat-square)](https://img.shields.io/badge/Platforms-macOS-orange?style=flat-square)
 [![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)
 
-This Swift code generator is built upon the [Swift OpenAPI Generator](https://github.com/apple/swift-openapi-generator) and leverages the OpenAPI description for App Store Connect API. The goal is to automate the creation of Swift language bindings, providing developers with a seamless way to interact with App Store Connect' REST API.
-
-## Usage
-
+This Swift code generator is built upon the [Swift OpenAPI Generator](https://github.com/apple/swift-openapi-generator) and leverages the OpenAPI description for App Store Connect API. The goal is to automate the creation of Swift language bindings, providing developers with a seamless way to interact with App Store Connect REST API.
 
 ## Installation
 
@@ -33,6 +30,10 @@ dependencies: [
 The [Swift OpenAPI Generator](https://github.com/apple/swift-openapi-generator) is a Swift package plugin designed to generate code at build-time, ensuring it remains synchronized with the OpenAPI document.
 
 Use [Github Action Schedule](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule) to download the [OpenAPI specification](https://developer.apple.com/documentation/appstoreconnectapi#:~:text=OpenAPI%20specification) file from [App Store Connect API documentation](https://developer.apple.com/documentation/appstoreconnectapi) then create generated module (Swift Package).
+
+## Related
+
+- [GitHub's REST API Swift Language Code](https://github.com/Wei18/github-rest-api-swift-openapi)
 
 # Contributions
 
