@@ -39,7 +39,9 @@ let config: PackageConfigSpec = SourceCodePackageConfigSpec()
 
 let package = Package(
     name: "AppStoreConnectAPIOAS",
-    platforms: [.macOS(.v10_15)],
+    platforms: [
+        .macOS(.v10_15), .iOS(.v13), .tvOS(.v13), .watchOS(.v6), .visionOS(.v1),
+    ],
     products: config.libraries,
     dependencies: [
         .package(url: "https://github.com/apple/swift-openapi-runtime", from: "1.0.0"),
